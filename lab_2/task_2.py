@@ -5,7 +5,7 @@ increase = 0.05  # Ежемесячный рост цен
 
 # Посчитайте количество  месяцев, которое можно протянуть без долгов
 month_count = 0
-while money_capital:
+while True:
     if month_count == 0:
         money_capital = money_capital + salary - spend
     else:
